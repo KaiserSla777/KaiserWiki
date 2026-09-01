@@ -1,0 +1,89 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+
+h2 {
+    color: #8a2be2;
+}
+
+h3 {
+    color: #8a2be2;
+}
+
+p {
+    font-size: 16px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.site {
+    width: 900px;
+    margin: auto;
+    border: 3px solid #8a2be2;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #8a2be2;
+}
+
+.conteudo {
+    display: flex;
+}
+
+aside {
+    width: 180px;
+    padding: 20px;
+    border-right: 3px solid #8a2be2;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    border-top: 3px solid #8a2be2;
+}
+
+.caixa {
+    border: 2px solid #8a2be2;
+    padding: 15px;
+    margin-bottom: 100px;
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    min-height: 250px;
+}
+.caixa img {
+    width: 200px;
+    weight: 275px;
+    object-fix: cover;
+}
+.caixa {
+    transition: 0.3s;
+}
+
+.caixa:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 15px #8a2be2;
+}
+.caixa img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+    margin: 10px auto;
+}
