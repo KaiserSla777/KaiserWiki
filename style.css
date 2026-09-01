@@ -84,6 +84,14 @@ footer {
     width: 150px;
     height: 150px;
     object-fit: cover;
+body {
+    background-image:
+        radial-gradient(#8a2be2 1px, transparent 1px);
+    background-size: 25px 25px;
+}
+body {
+    cursor: url("imagens/cursor.png"), auto;
+}
     display: block;
     margin: 10px auto;
 }
